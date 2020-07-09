@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-leancloud-pageview",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "description": "page view count base on leancloud",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TiannV/gitbook-plugin-leancloud-pageview/issues"
   },
-  "homepage": "https://github.com/TiannV/gitbook-plugin-leancloud-pageview#readme"
+  "homepage": "https://github.com/TiannV/gitbook-plugin-leancloud-pageview#readme",
+  "engines": {
+    "gitbook": ">=2.5.0"
+  }
 }

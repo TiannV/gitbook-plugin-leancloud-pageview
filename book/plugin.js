@@ -32,8 +32,8 @@ require(["gitbook", "jQuery"], function (gitbook, $) {
     var Counter = function (method, url, data) {
       return $.ajax({
         method: method,
-        auth := app_id.substr(0, 8).toLowerCase()
-        url: `https://${auth}.api.lncld.net/1.1${url}`,
+        auth : app_id.substr(0, 8).toLowerCase(),
+        url : `https://${auth}.api.lncld.net/1.1${url}`,
         headers: {
           'X-LC-Id': app_id,
           'X-LC-Key': app_key,
@@ -65,7 +65,7 @@ require(["gitbook", "jQuery"], function (gitbook, $) {
   gitbook.events.bind("start", function(e, config) {
       app_id = config.leancloud-pageview.app_id
       app_key = config.leancloud-pageview.app_key
-  }
+  })
 
   var Counter = function (method, url, data) {
     return $.ajax({
