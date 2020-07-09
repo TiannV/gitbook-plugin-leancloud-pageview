@@ -4,9 +4,9 @@ To use the leancloud plugin in your Gitbook project, add the leancloud plugin to
 
 ```
 {
-    "plugins": ["leancloud"],
+    "plugins": ["leancloud-pageview"],
     "pluginsConfig": {
-        "leancloud": {
+        "leancloud-pageview": {
             "app_id": "XXXXXXX",
             "app_key": "xxxxxx",
         }
